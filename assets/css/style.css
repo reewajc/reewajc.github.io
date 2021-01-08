@@ -1,0 +1,29 @@
+
+#first{
+background-color: green;
+width: 250px;
+height: 250px;
+
+}
+#second{
+background-color: teal;
+width: 250px;
+height: 250px;
+
+}
+#third{
+background-color: orange;
+width: 250px;
+height: 250px;
+
+}
+#fourth{
+background-color: purple;
+width: 250px;
+height: 250px;
+
+}
+body{
+background-color: lightblue;
+padding-top: 10px;
+}
