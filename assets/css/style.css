@@ -16,14 +16,35 @@ h1#ram{
     font-weight: bold;
    text-align: center;
     position: relative;
-    animation: animateName 10s infinite;
+    animation: animateName 5s infinite;
     animation-timing-function: linear;
   
 }
 
 @keyframes animateName{
-  from{color:rgb(14, 73, 129);}
-  to{color: blueviolet;}
+ 
+  0%{
+color: blueviolet;
+
+  }
+
+  25%{
+    color:rgb(14, 73, 129);
+    
+  }
+  50%{
+color: green;
+  }
+  75%{
+    color: royalblue;
+  }
+  100%{
+color: teal;
+  }
+}
+#firstR{
+  border: 2px solid red;
+  font-size: 100px;
 }
 
 
