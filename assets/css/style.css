@@ -43,8 +43,38 @@ color: teal;
   }
 }
 #firstR{
-  border: 2px solid red;
+  border: 10px solid rgb(72, 255, 0);
   font-size: 100px;
+  border-radius: 10%;
+  animation: animateLetterR 5s infinite;
+  animation-timing-function: linear;
+}
+.img-fluid{
+  margin-bottom: 5px;
+  border-radius: 10%;
+}
+
+@keyframes animateLetterR{
+ 
+  0%{
+  
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  25%{
+   font-family: 'Times New Roman', Times, serif;
+    
+  }
+  50%{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  75%{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  100%{
+font-family: fantasy;
+  }
 }
 
 
