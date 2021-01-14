@@ -76,5 +76,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-family: fantasy;
   }
 }
+#progress{
+  margin-bottom: 5px;
+}
 
 
