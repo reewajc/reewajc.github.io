@@ -9,6 +9,7 @@ padding-top: 10px;
     font-size: larger;
     font-weight: bold;
     color: white;
+    text-indent: 2cm;
 }
 h1#ram{
     color: teal;
@@ -78,6 +79,12 @@ font-family: fantasy;
 }
 #progress{
   margin-bottom: 5px;
+}
+
+#familiar{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 
