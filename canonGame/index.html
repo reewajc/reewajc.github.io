@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Canon Games</title>
+    
+      <style >
+         canvas { border: 1px solid black; }
+      </style>
+	   <script src = "cannon.js"></script>
+</head>
+
+  
+   <body class="bg-dark">
+      <div class="container m-5 " >
+         
+         <div class="row">
+            <audio id = "blockerSound" preload = "auto">
+         <source src = "blocker_hit.mp3" type = "audio/mpeg"></audio>
+      <audio id = "targetSound" preload = "auto">
+         <source src = "target_hit.mp3" type = "audio/mpeg"></audio>
+      <audio id = "cannonSound" preload = "auto">
+         <source src = "cannon_fire.mp3" type = "audio/mpeg"></audio>
+      
+      
+         </div>
+         <div class="row">
+            <div class="col-lg-7">
+               <h1 class="text-success text-center">Canon Game</h1>
+<canvas id = "theCanvas" width = "600" height = "600"></canvas> 
+            </div>
+            <div class="col-lg-5">
+                
+            <div class="text-light text-large" id="message">
+
+            </div> 
+            <input class="btn btn-success m-1" id = "startButton" type = "button" value = "Start Game">
+        
+            </div>
+           
+         </div>
+
+       
+      </div>
+      
+     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+   </body>
+</html>
+
