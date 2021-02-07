@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "reewajc.github.io",
+			"path": ".."
+		},
+		{
+			"name": "Canon Game",
+			"path": "../../Canon Game"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "reewajc.github.io"
+	}
+}
