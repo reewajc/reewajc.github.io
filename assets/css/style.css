@@ -8,9 +8,20 @@ padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     font-weight: bold;
+ 
     color: white;
     text-indent: 2cm;
 }
+
+#background{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  word-wrap: break-word;
+  color: white;
+  text-indent: 2cm;
+}
+
+
 h1#ram{
     color: teal;
     font-size: 60px;
@@ -79,6 +90,7 @@ font-family: serif;
 }
 #progress{
   margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 #familiar{
@@ -87,4 +99,13 @@ font-family: serif;
   font-weight: bolder;
 }
 
+.fa-youtube{
+  color: red;
+}
+.fa-envelope{
+  color: aqua;
+}
 
+.fa-github {
+  color: white;
+}
