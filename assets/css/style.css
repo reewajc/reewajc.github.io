@@ -109,3 +109,7 @@ font-family: serif;
 .fa-github {
   color: white;
 }
+
+#resume:hover::after{
+  content: ": Please email me for Resume";
+}
