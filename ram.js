@@ -6,7 +6,7 @@
   
 window.setInterval(function() {
     // this will execute on every 5 seconds
-    var programmingLanguages = ["C#", "Java", "JavaScript", "Python","HTML", "CSS","Bootstrap", "SDLC", "Git"];
+    var programmingLanguages = ["Spring", "Java", "JavaScript", "Python","HTML", "CSS","Bootstrap", "SDLC", "Git", "AWS","Docker","Oracle DB", "Hibernate"];
         
         document.querySelector('#pLang').innerHTML = programmingLanguages[Math.floor(Math.random() * 7)];
   
